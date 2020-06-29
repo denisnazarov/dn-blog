@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, excerptHtml }) => (
             <li key={id}>
               <h3>
-                <Link href={`/posts/${id}`}>
+                <Link href={`/${id}`}>
                   <a>{title}</a>
                 </Link>
               </h3>
@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
                 className={styles.excerpt}
                 dangerouslySetInnerHTML={{ __html: excerptHtml }}
               />
-              <Link href={`/posts/${id}`}>
+              <Link href={`/${id}`}>
                 <a className={styles.readPostLink}>Read post</a>
               </Link>
             </li>

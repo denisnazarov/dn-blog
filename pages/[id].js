@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Layout from "../../components/Layout";
+import Layout from "../components/Layout";
 
-import styles from "./index.module.css";
+import styles from "./[id].module.css";
 
-import { getAllPostIds, getPostData } from "../../lib/posts";
+import { getAllPostIds, getPostData } from "../lib/posts";
 
 export default function Post({ postData: { title, id, date, contentHtml } }) {
   return (
