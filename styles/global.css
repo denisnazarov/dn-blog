@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 100%/1.75 "Merriweather", "Georgia", serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+  box-shadow: 0 1px 0 0 currentColor;
+}
+
+a:hover {
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
