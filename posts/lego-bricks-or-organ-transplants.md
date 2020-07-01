@@ -3,7 +3,9 @@ title: "Blockchain as superorganism"
 date: "2020-06-29"
 ---
 
-Software development is more like surgery than playing with LEGOs. This gruesome [comparison](https://www.johndcook.com/blog/2011/02/03/lego-blocks-and-organ-transplants/) from 2011 still rings true today:
+The traditional software development process is more like surgery than playing with LEGOs.
+
+This [comparison](https://www.johndcook.com/blog/2011/02/03/lego-blocks-and-organ-transplants/) from 2011 still rings true today:
 
 > People have been comparing software components to LEGO blocks for a couple decades. We should be able to assemble applications by snapping together modular components, just like LEGOs. There has been progress, but for the most part we haven’t realized the promise LEGO-style software development.
 
@@ -11,34 +13,44 @@ Software development is more like surgery than playing with LEGOs. This gruesome
 
 <!-- excerpt -->
 
-With the drastic growth of open source over the past ten years, one would think we have access to more LEGO blocks today than ever before.
+With the compounding growth of open source software over the past ten years, today we have access to more software LEGOs than ever.
 
-But in many ways it feels like building a sustainable software product is harder than ever.
+But building a software product is still a long way from the simplicity of working with a plastic construction toy.
 
-This is because open source software is less like functional LEGO blocks and more like mechanical blueprints.
+In practice, open source code is more like a blueprint or schematic than a ready-to-use, functional component. The code need still needs to be deployed by a programmer and then sustained throughout its life.
 
-To creating a healthy and thriving software system, one must instantiate, integrate, grow, and maintain a complex constellation of constituent parts.
+Let’s extend the biological metaphor of an organ system to illuminate this point. Bodies need brains, hearts, and lungs to live.
 
-Bodies need brains, hearts, and lungs to live, and software systems require their own vital components, like databases, servers, and caches.
+![](/body-systems.jpg)
 
-There is major effort between choosing a stack of blueprints and integrating them into a robust system.
+Software systems require their own vital components, like databases, servers, and caches.
 
-Software upstarts are at a disadvantage to established incumbents given the high mortality rate of immature systems.
+![](/software-systems.jpg)
 
-Traditional software systems are also independent organisms. They suffer from inefficiency by requiring redundancy and repetitive work to create the foundational organs.
+To creating a healthy and thriving software system, one must instantiate, incubate, integrate, grow, and maintain a complex constellation of “living” subsystems.
 
-The beauty of crypto is that software engineers no longer have to grow and transplant software "organs" from scratch.
+Organisms develop through physical growth and by interacting with their environment. Similarly, software systems grow by being used by users and accumulating data.
+
+While different software products can serve drastically different purposes, they are all primarily comprised of the same core building blocks, just like biological organisms
+
+Having an independent brain, heart, and lungs is a biological necessity for an animal, but for a software system it is actually inefficient, repetitive, and redundant.
+
+The burden of recreating an independent “body” also puts new software products at a disadvantage to established products with more "mature" components. Immature systems have a higher mortality risk.
+
+What about blockchain systems?
+
+The beauty of blockchains is that software engineers no longer have to grow or transplant new software "organs" from scratch.
 
 They can tap into an ecosystem of living software components running on a shared superorganism.
 
-Instead of independent bodies supporting their own vital organs, a blockchain is a single computational substrate shared between multiple applications.
+Take Ethereum. The blockchain is the host (body) comprised of a diverse ecosystem of apps (organs).
 
-A blockchain network is a superorganism where vital resources are shared.
+Newly built apps can tap into the functionality of existing apps deployed by other developers, since all applications share the same computational substrate. (The open permission model of blockchains is crucial for frictionless sharing of resources and components.)
 
-Ethereum is the host (body) comprised of a diverse ecosystem of applications (organs).
+Since all applications are written in the same language and run in a shared computational environment, there are by definition no issues of organ rejection (other than typical bugs).
 
-Since all applications are written in the same language and run on a shared virtual machine, there are no problems of organ rejection by design, other than your typical bugs.
+This new paradigm makes open source code look like lifeless blueprints. Blockchain components, on the other hand, beat like hearts, breathe like lungs, and think like brains.
 
-Unlike the cold schematics of open source code, blockchain components beat like a heart.
+In a mammal, body's subsystems gain in efficiency and can specialize by outsourcing functionality and taking advantage of existing subsystems.
 
-The body's subsystems can outsource functionality and take advantage of blood rushing from the heart. So can blockchain developers benefit from running components (organs) deployed by others, without having to grow things from scratch.
+Blockchain developers can likewise benefit from existing components deployed by others, without having to grow things from scratch.
