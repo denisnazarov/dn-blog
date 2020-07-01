@@ -7,7 +7,7 @@ The traditional software development process is more like surgery than playing w
 
 This [comparison](https://www.johndcook.com/blog/2011/02/03/lego-blocks-and-organ-transplants/) from 2011 still rings true today:
 
-> People have been comparing software components to LEGO blocks for a couple decades. We should be able to assemble applications by snapping together modular components, just like LEGOs. There has been progress, but for the most part we haven’t realized the promise LEGO-style software development.
+> People have been comparing software components to LEGO blocks for a couple decades. We should be able to assemble applications by snapping together modular components, just like LEGOs. There has been progress, but for the most part we haven’t realized the promise of LEGO-style software development.
 
 > Integrating two software systems is usually more like performing a heart transplant than snapping together LEGO blocks. It can be done—if there’s a close enough match and the people doing it have enough skill—but the pieces don’t fit together trivially. And failure may not be immediately obvious; it may take a while to see signs of rejection.
 
@@ -17,27 +17,27 @@ With the compounding growth of open source software over the past ten years, tod
 
 But building a software product is still a long way from the simplicity of working with a plastic construction toy.
 
-In practice, open source code is more like a blueprint or schematic than a ready-to-use, functional component. The code need still needs to be deployed by a programmer and then sustained throughout its life.
+In practice, open source code is more like a blueprint or schematic than a functioning component. The code still needs to be deployed by a programmer and sustained throughout its life.
 
 Let’s extend the biological metaphor of an organ system to illuminate this point. Bodies need brains, hearts, and lungs to live.
 
 ![](/body-systems.jpg)
 
-Software systems require their own vital components, like databases, servers, and caches.
+Software systems likewise require their own vital components, like databases, servers, and caches.
 
 ![](/software-systems.jpg)
 
-To creating a healthy and thriving software system, one must instantiate, incubate, integrate, grow, and maintain a complex constellation of “living” subsystems.
+To creating a healthy and thriving software system, one must instantiate, incubate, integrate, grow, and maintain a complex constellation of “living” subsystems, similar to a body.
 
-Organisms develop through physical growth and by interacting with their environment. Similarly, software systems grow by being used by users and accumulating data.
+Organisms develop through physical growth and interactions with their environment. Software systems also develop and grow—by accumulating data from their users and by being maintained by developers.
 
-While different software products can serve drastically different purposes, they are all primarily comprised of the same core building blocks, just like biological organisms
+Having an independent brain, heart, and lungs is a biological necessity for an animal, but for a software system it is inefficient and redundant.
 
-Having an independent brain, heart, and lungs is a biological necessity for an animal, but for a software system it is actually inefficient, repetitive, and redundant.
+Dramatically different software products can serve drastically different purposes, but they are all comprised of primarily the same core building blocks.
 
 The burden of recreating an independent “body” also puts new software products at a disadvantage to established products with more "mature" components. Immature systems have a higher mortality risk.
 
-What about blockchain systems?
+What makes blockchain systems different?
 
 The beauty of blockchains is that software engineers no longer have to grow or transplant new software "organs" from scratch.
 
